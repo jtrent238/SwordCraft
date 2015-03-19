@@ -27,6 +27,7 @@ public class SwordCraft {
 	  public static Item itemcoalFragment;
 	  public static Item itemlapizFragment;
 	  public static Item itemredstoneFragment;
+	  public static Item itemrainbowFragment;
 	  public static Item itemdiamondapple;
 	  public static Item itemcoalapple;
 	  public static Item itemredstoneapple;
@@ -35,6 +36,8 @@ public class SwordCraft {
 	  public static Item itemlapizapple;
 	  public static Item itemironapple;
 	  public static Item itemcheese;
+	  public static Item itemgrilledcheese;
+	  public static Item itemrainbowwand;
 	  
 
 	  
@@ -62,6 +65,8 @@ public class SwordCraft {
 		GameRegistry.registerItem(itemlapizFragment, itemlapizFragment.getUnlocalizedName().substring(5));
 		itemredstoneFragment = new ItemredstoneFragment().setUnlocalizedName("itemredstoneFragment").setTextureName("swordcraft:itemredstoneFragment").setCreativeTab(tabSwordCraft);
 		GameRegistry.registerItem(itemredstoneFragment, itemredstoneFragment.getUnlocalizedName().substring(5));
+		itemrainbowFragment = new ItemrainbowFragment().setUnlocalizedName("itemrainbowFragment").setTextureName("swordcraft:itemrainbowFragment").setCreativeTab(tabSwordCraft);
+		GameRegistry.registerItem(itemrainbowFragment, itemrainbowFragment.getUnlocalizedName().substring(5));
 		itemdiamondapple = new ItemFood(5, 0.2F, false).setUnlocalizedName("itemdiamondapple").setTextureName("swordcraft:itemdiamondapple").setCreativeTab(tabSwordCraft);
 		GameRegistry.registerItem(itemdiamondapple, itemdiamondapple.getUnlocalizedName().substring(5));
 		itemcoalapple = new ItemFood(5, 0.2F, false).setUnlocalizedName("itemcoalapple").setTextureName("swordcraft:itemcoalapple").setCreativeTab(tabSwordCraft);
@@ -76,8 +81,12 @@ public class SwordCraft {
 		GameRegistry.registerItem(itemlapizapple, itemlapizapple.getUnlocalizedName().substring(5));
 		itemironapple = new ItemFood(5, 0.2F, false).setUnlocalizedName("itemironapple").setTextureName("swordcraft:itemironapple").setCreativeTab(tabSwordCraft);
 		GameRegistry.registerItem(itemironapple, itemironapple.getUnlocalizedName().substring(5));
-		itemcheese = new ItemFood(5, 0.2F, false).setUnlocalizedName("itemcheese");
+		itemcheese = new ItemFood(3, 0.2F, false).setUnlocalizedName("itemcheese");
 		GameRegistry.registerItem(itemcheese, itemcheese.getUnlocalizedName().substring(5));
+		itemgrilledcheese = new ItemFood(6, 0.2F, false).setUnlocalizedName("itemgrilledcheese");
+		GameRegistry.registerItem(itemgrilledcheese, itemgrilledcheese.getUnlocalizedName().substring(5));
+		itemrainbowwand = new Itemrainbowwand().setUnlocalizedName("itemrainbowwand").setTextureName("swordcraft:itemrainbowwand").setCreativeTab(tabSwordCraft);
+		GameRegistry.registerItem(itemrainbowwand, itemrainbowwand.getUnlocalizedName().substring(5));
 		
 	}
 	@EventHandler
