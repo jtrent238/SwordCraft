@@ -38,6 +38,7 @@ public class SwordCraft {
 	  public static Item itemcheese;
 	  public static Item itemgrilledcheese;
 	  public static Item itemrainbowwand;
+	  public static Item itemmagicwand;
 	  
 
 	  
@@ -87,6 +88,8 @@ public class SwordCraft {
 		GameRegistry.registerItem(itemgrilledcheese, itemgrilledcheese.getUnlocalizedName().substring(5));
 		itemrainbowwand = new Itemrainbowwand().setUnlocalizedName("itemrainbowwand").setTextureName("swordcraft:itemrainbowwand").setCreativeTab(tabSwordCraft);
 		GameRegistry.registerItem(itemrainbowwand, itemrainbowwand.getUnlocalizedName().substring(5));
+		itemmagicwand = new Itemmagicwand().setUnlocalizedName("itemmagicwand").setTextureName("swordcraft:itemmagicwand").setCreativeTab(tabSwordCraft);
+		GameRegistry.registerItem(itemmagicwand, itemmagicwand.getUnlocalizedName().substring(5));
 		
 	}
 	@EventHandler
