@@ -37,7 +37,7 @@ public class SwordCraft {
 	  public static Item itemlapizapple;
 	  public static Item itemironapple;
 	  public static Item itemcheese;
-	  Public static Item itemcheesesword;
+	  public static Item itemcheesesword;
 	  public static Item itemcheeseaxe;
 	  public static Item itemchessepickaxe;
 	  public static Item itemcheesehoe;
@@ -130,6 +130,8 @@ public class SwordCraft {
 		GameRegistry.registerItem(itemironknife, itemironknife.getUnlocalizedName().substring(5));
 		itemcheeseknife = new Itemcheeseknife().setUnlocalizedName("itemcheeseknife").setFull3D().setTextureName("swordcraft:itemcheeseknife").setCreativeTab(tabSwordCraft);
 		GameRegistry.registerItem(itemcheeseknife, itemcheeseknife.getUnlocalizedName().substring(5));
+		itemruby = new Itemruby().setUnlocalizedName("itemruby").setFull3D().setTextureName("swordcraft:itemruby").setCreativeTab(tabSwordCraft);
+		GameRegistry.registerItem(itemruby, itemruby.getUnlocalizedName().substring(5));
 	}
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
