@@ -37,7 +37,19 @@ public class SwordCraft {
 	  public static Item itemlapizapple;
 	  public static Item itemironapple;
 	  public static Item itemcheese;
+	  Public static Item itemcheesesword;
+	  public static Item itemcheeseaxe;
+	  public static Item itemchessepickaxe;
+	  public static Item itemcheesehoe;
+	  public static Item itemcheeseshovel;
+	  public static Item itemruby;
+	  public static Item itemrubysword;
+	  public static Item itemrubyaxe;
+	  public static Item itemrubypickaxe;
+	  public static Item itemrubyhoe;
+	  public static Item itemrubyshovel;
 	  public static Item itemgrilledcheese;
+	  public static 
 	  public static Item itemrainbowwand;
 	  public static Item itemmagicwand;
 	  public static Item itemendertear;
@@ -47,6 +59,12 @@ public class SwordCraft {
 	  public static Item itemstoneknife;
 	  public static Item itemironknife;
 	  public static Item itemcheeseknife;
+	  public static Item itembigdiamondsword;
+	  public static Item itembiggoldsword;
+	  public static Item itembigstonesword;
+	  public static Item itembigwoodsword;
+	  public static Item itembigironsword;
+	  public static Item itembigcheesesword;
 	  
 	  
 	
