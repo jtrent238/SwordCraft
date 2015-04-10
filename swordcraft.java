@@ -132,6 +132,8 @@ public class SwordCraft {
 		GameRegistry.registerItem(itemcheeseknife, itemcheeseknife.getUnlocalizedName().substring(5));
 		itemruby = new Itemruby().setUnlocalizedName("itemruby").setFull3D().setTextureName("swordcraft:itemruby").setCreativeTab(tabSwordCraft);
 		GameRegistry.registerItem(itemruby, itemruby.getUnlocalizedName().substring(5));
+		itemrubysword = new Itemrubysword().setUnlocalizedName("itemrubysword").setFull3D().setTextureName("swordcraft:itemrubysword").setCreativeTab(tabSwordCraft);
+		GameRegistry.registerItem(itemrubysword, itemrubysword.getUnlocalizedName().substring(5));
 	}
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
