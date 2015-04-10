@@ -49,7 +49,7 @@ public class SwordCraft {
 	  public static Item itemrubyhoe;
 	  public static Item itemrubyshovel;
 	  public static Item itemgrilledcheese;
-	  public static 
+	  public static Item itemgrilledcheesesandwhich;
 	  public static Item itemrainbowwand;
 	  public static Item itemmagicwand;
 	  public static Item itemendertear;
@@ -65,6 +65,8 @@ public class SwordCraft {
 	  public static Item itembigwoodsword;
 	  public static Item itembigironsword;
 	  public static Item itembigcheesesword;
+	  public static Item itembigrubysword;
+	  public static Item itemgodsword;
 	  
 	  
 	
