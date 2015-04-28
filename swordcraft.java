@@ -135,11 +135,11 @@ public class SwordCraft {
 		GameRegistry.registerItem(itemruby, itemruby.getUnlocalizedName().substring(5));
 		itemrubysword = new Itemrubysword().setUnlocalizedName("itemrubysword").setFull3D().setTextureName("swordcraft:itemrubysword").setCreativeTab(tabSwordCraft);
 		GameRegistry.registerItem(itemrubysword, itemrubysword.getUnlocalizedName().substring(5));
+		itemrubyaxe = new Itemrubyaxe().setUnlocalizedName("itemrubyaxe").setFull3D().setTextureName("swordcraft:itemrubyaxe").setCreativeTab(tabSwordCraft);
+		GameRegistry.registerItem(itemrubyaxe, itemrubyaxe.getUnlocalizedName().substring(5));
 		
-		itemrubysword = new Itemrubysword().setUnlocalizedName("itemrubysword").setFull3D().setTextureName("swordcraft:itemrubysword").setCreativeTab(tabSwordCraft);
-		GameRegistry.registerItem(itemrubysword, itemrubysword.getUnlocalizedName().substring(5));
-		itemrubysword = new Itemrubysword().setUnlocalizedName("itemrubysword").setFull3D().setTextureName("swordcraft:itemrubysword").setCreativeTab(tabSwordCraft);
-		GameRegistry.registerItem(itemrubysword, itemrubysword.getUnlocalizedName().substring(5));
+		itemrubypickaxe = new Itemrubypickaxe().setUnlocalizedName("itemrubypickaxe").setFull3D().setTextureName("swordcraft:itemrubypickaxe").setCreativeTab(tabSwordCraft);
+		GameRegistry.registerItem(itemrubypickaxe, itemrubypickaxe.getUnlocalizedName().substring(5));
 		itemrubysword = new Itemrubysword().setUnlocalizedName("itemrubysword").setFull3D().setTextureName("swordcraft:itemrubysword").setCreativeTab(tabSwordCraft);
 		GameRegistry.registerItem(itemrubysword, itemrubysword.getUnlocalizedName().substring(5));
 		itemrubysword = new Itemrubysword().setUnlocalizedName("itemrubysword").setFull3D().setTextureName("swordcraft:itemrubysword").setCreativeTab(tabSwordCraft);
