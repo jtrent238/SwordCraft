@@ -68,6 +68,7 @@ public class SwordCraft {
 	  public static Item itembigrubysword;
 	  public static Item itemgodsword;
 	  public static Item itembonesword;
+	  public static Item itemrocksword;
 	  
 	  
 	
@@ -147,6 +148,24 @@ public class SwordCraft {
 		GameRegistry.registerItem(itemgrilledcheesesandwhich, itemgrilledcheesesandwhich.getUnlocalizedName().substring(5));
 		itembigdiamondsword = new Itembigdiamondsword().setUnlocalizedName("itembigdiamondsword").setFull3D().setTextureName("swordcraft:itembigdiamondsword").setCreativeTab(tabSwordCraft);
 		GameRegistry.registerItem(itembigdiamondsword, itembigdiamondsword.getUnlocalizedName().substring(5));
+		itembiggoldsword = new Itembiggoldsword().setUnlocalizedName("itembiggoldsword").setFull3D().setTextureName("swordcraft:itembiggoldsword").setCreativeTab(tabSwordCraft);
+		GameRegistry.registerItem(itembiggoldsword, itembiggoldsword.getUnlocalizedName().substring(5));
+		itembigstonesword = new Itembigstonesword().setUnlocalizedName("itembigstonesword").setFull3D().setTextureName("swordcraft:itembigstonesword").setCreativeTab(tabSwordCraft);
+		GameRegistry.registerItem(itembigstonesword, itembigstonesword.getUnlocalizedName().substring(5));
+		itembigwoodsword = new Itembigwoodsword().setUnlocalizedName("itembigwoodsword").setFull3D().setTextureName("swordcraft:itembigwoodsword").setCreativeTab(tabSwordCraft);
+		GameRegistry.registerItem(itembigwoodsword, itembigwoodsword.getUnlocalizedName().substring(5));
+		itembigironsword = new Itembigironsword().setUnlocalizedName("itembigironsword").setFull3D().setTextureName("swordcraft:itembigironsword").setCreativeTab(tabSwordCraft);
+		GameRegistry.registerItem(itembigironsword, itembigironsword.getUnlocalizedName().substring(5));
+		itembigcheesesword = new Itembigcheesesword().setUnlocalizedName("itembigcheesesword").setFull3D().setTextureName("swordcraft:itembigcheesesword").setCreativeTab(tabSwordCraft);
+		GameRegistry.registerItem(itembigcheesesword, itembigcheesesword.getUnlocalizedName().substring(5));
+		itembigrubysword = new Itembigrubysword().setUnlocalizedName("itembigrubysword").setFull3D().setTextureName("swordcraft:itembigrubysword").setCreativeTab(tabSwordCraft);
+		GameRegistry.registerItem(itembigrubysword, itembigrubysword.getUnlocalizedName().substring(5));
+		itemgodsword = new Itemgodsword().setUnlocalizedName("itemgodsword").setFull3D().setTextureName("swordcraft:itemgodsword").setCreativeTab(tabSwordCraft);
+		GameRegistry.registerItem(itemgodsword, itemgodsword.getUnlocalizedName().substring(5));
+		itembonesword = new Itembonesword().setUnlocalizedName("itembonesword").setFull3D().setTextureName("swordcraft:itembonesword").setCreativeTab(tabSwordCraft);
+		GameRegistry.registerItem(itembonesword, itembonesword.getUnlocalizedName().substring(5));
+		itemrocksword = new Itemrocksword().setUnlocalizedName("itemrocksword").setFull3D().setTextureName("swordcraft:itemrocksword").setCreativeTab(tabSwordCraft);
+		GameRegistry.registerItem(itemrocksword, itemrocksword.getUnlocalizedName().substring(5));
 	}
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
