@@ -143,10 +143,10 @@ public class SwordCraft {
 		GameRegistry.registerItem(itemrubyhoe, itemrubyhoe.getUnlocalizedName().substring(5));
 		itemrubyshovel = new Itemrubyshovel().setUnlocalizedName("itemrubyshovel").setFull3D().setTextureName("swordcraft:itemrubyshovel").setCreativeTab(tabSwordCraft);
 		GameRegistry.registerItem(itemrubyshovel, itemrubyshovel.getUnlocalizedName().substring(5));
-		itemrubysword = new Itemrubysword().setUnlocalizedName("itemrubysword").setFull3D().setTextureName("swordcraft:itemrubysword").setCreativeTab(tabSwordCraft);
-		GameRegistry.registerItem(itemrubysword, itemrubysword.getUnlocalizedName().substring(5));
-		itemrubysword = new Itemrubysword().setUnlocalizedName("itemrubysword").setFull3D().setTextureName("swordcraft:itemrubysword").setCreativeTab(tabSwordCraft);
-		GameRegistry.registerItem(itemrubysword, itemrubysword.getUnlocalizedName().substring(5));
+		itemgrilledcheesesandwhich = new Itemgrilledcheesesandwhich().setUnlocalizedName("itemgrilledcheesesandwhich").setFull3D().setTextureName("swordcraft:itemgrilledcheesesandwhich").setCreativeTab(tabSwordCraft);
+		GameRegistry.registerItem(itemgrilledcheesesandwhich, itemgrilledcheesesandwhich.getUnlocalizedName().substring(5));
+		itembigdiamondsword = new Itembigdiamondsword().setUnlocalizedName("itembigdiamondsword").setFull3D().setTextureName("swordcraft:itembigdiamondsword").setCreativeTab(tabSwordCraft);
+		GameRegistry.registerItem(itembigdiamondsword, itembigdiamondsword.getUnlocalizedName().substring(5));
 	}
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
